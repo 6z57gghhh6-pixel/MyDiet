@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<title>MyDiet</title>
+<meta name="description" content="MyDiet – gestione alimentare dinamica, offline.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f2f4f2">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0d0b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MyDiet">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="sbar"></div>
+<main id="view" aria-live="polite"></main>
+<nav id="tabbar" aria-label="Sezioni principali"></nav>
+<div id="layer"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript><p style="padding:2rem">MyDiet richiede JavaScript.</p></noscript>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
